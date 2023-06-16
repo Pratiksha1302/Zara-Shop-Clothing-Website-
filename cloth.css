@@ -1,0 +1,125 @@
+a {
+    font-size:14px;
+    font-weight:700
+  }
+  
+  .superNav {
+    font-size:13px;
+  }
+  .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  @media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
+    }
+  }
+
+  .jumbotron{
+    background: url("bg.jpg") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.bg-image {
+   position: relative;
+   }
+   .mask{
+      position: absolute;
+       width: 100%; 
+       height: 100%; 
+       left: 0px; top: 0px; 
+      }
+.btn:hover{
+color: blueviolet;
+background-color: chocolate;
+border-color: none;
+}
+
+.column {
+  float: none;
+  width: 33.33%;
+  height: auto;
+  padding-top: 90px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img{
+  margin-bottom: 0px;
+}
+
+ 
+#foodContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+             
+              color: black;
+              width: 300px;
+              padding: 10px;
+              border: 2px solid white;
+              margin: 15px ;
+              transition: 200ms;
+              display:flexbox;
+              flex-wrap: wrap;
+              justify-content: center;
+          }
+          .card-img{
+              border-radius: 16px;
+              width: 100%;
+          }
+          .card:hover{
+              transform: zoom("10deg");
+             
+              background-color:  #ccccff;
+              border: 3 px solid white;
+              border-radius: 22px;
+          }
+        
+      
+         
+          .Shipping{
+           margin-top: 30px;
+           margin-bottom: 30px;
+            padding: 10px 10px;
+          }
+          .hover-fade  {
+            display: block;
+            position: relative;
+            overflow: hidden;
+           
+          }
+           
+          .hover-fade img {
+            width: 90%;
+            height: auto;
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            -ms-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+          }
+          .hover-fade:hover img {
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+            -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
+            filter: alpha(opacity=1.5);
+            opacity: 0.7;
+          }
+       
+          
